@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css?family=Quattrocento|Fanwood+Text);
+@import url(https://fonts.googleapis.com/css?family=Radley|PT+Sans:400,700);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.cf:after {
+  clear: both; }
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1; }
+
+@media print {
+  body {
+    font-size: 10px; } }
+h1, h2 {
+  font-family: "Radley", serif, serif;
+  text-align: center; }
+
+h3, h4, h5, h6 {
+  font-family: "PT Sans", sans-serif, serif; }
+
+h1 {
+  font-size: 50px; }
+
+h2 {
+  font-size: 31px; }
+
+h3 {
+  font-size: 24px; }
+
+h4, h5, h6 {
+  font-size: 19px; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  font-family: "PT Sans", sans-serif, serif;
+  line-height: 1.5;
+  font-size: 19px; }
+
+body {
+  background: url("../img/sunflower-horiz.jpg") no-repeat center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover; }
+  body > h1 {
+    color: #cbd0dd;
+    text-align: left;
+    background: rgba(14, 27, 66, 0.7);
+    margin: 1em; }
+
+.underlay {
+  background: rgba(14, 27, 66, 0.7); }
+
+section {
+  height: 80%;
+  width: 50%;
+  font-size: 1.1em;
+  padding: 1em;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  @media screen and (max-width: 660px) {
+    section {
+      width: 90%; } }
+  section p {
+    text-align: center;
+    margin: 1em; }
+  section a {
+    display: block;
+    margin: 4em auto;
+    width: 40%;
+    color: #fff;
+    text-decoration: none; }
+    section a:hover {
+      color: #fff; }
+  section button {
+    display: block;
+    width: 100%;
+    background: #2c3b68;
+    padding: 1.25em;
+    border-radius: 5%;
+    font-size: 1em;
+    color: #fff; }
+    section button:hover {
+      background: #4f5d87;
+      cursor: pointer; }
+
+.available-content {
+  background: rgba(14, 27, 66, 0.7);
+  width: 80%;
+  margin: 0 auto;
+  padding: 1.26316em; }
+  .available-content h2 {
+    margin-top: 1em; }
+  .available-content ul {
+    column-count: 2;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -ms-column-count: 2;
+    -o-column-count: 2;
+    text-align: center;
+    margin: 0 auto; }
+
+/*# sourceMappingURL=newsletters.css.map */

@@ -1,0 +1,38 @@
+
+
+//Generate vendor prefixes for CSS property and value pair
+
+@mixin vendors ($property, $value){
+	#{$property}: #{$value};
+	-webkit-#{$property}: #{$value};
+	-moz-#{$property}: #{$value};
+	-ms-#{$property}: #{$value};
+	-o-#{$property}: #{$value};
+}
+
+//Define height and width in single declaration
+
+@mixin hw ($height: 100%, $width: 100%){
+	height: #{$height};
+	width: #{$width};
+}
+
+//Micro-clearfix by Nicholas Gallagher
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}

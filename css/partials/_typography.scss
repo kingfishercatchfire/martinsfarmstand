@@ -1,0 +1,42 @@
+//Google Fonts
+
+@import url(https://fonts.googleapis.com/css?family=Quattrocento|Fanwood+Text);
+@import url(https://fonts.googleapis.com/css?family=Radley|PT+Sans:400,700);
+
+$primary-font: 'Radley', serif;
+$primary-font-fallback: 'Quattrocento', serif;
+$secondary-font: 'PT Sans', sans-serif;
+$secondary-font-fallback: 'Fanwood Text', sans-serif;
+
+h1, h2{
+	font-family: $primary-font, serif;
+	text-align: center;
+}
+
+h3, h4, h5, h6{
+	font-family: $secondary-font, serif;
+}
+
+$font-size: 19px;
+$typ-secondary: 0.78947em;
+$typ-base: 1em;
+$typ-one: 1.26316em;
+$typ-two: 1.63158em;
+$typ-three: 2.63158em;
+
+h1{
+	font-size: 50px;
+}
+
+h2{
+	font-size: 31px;
+}
+
+h3{
+	font-size: 24px;
+}
+
+h4, h5, h6{
+	font-size: 19px;
+}
+

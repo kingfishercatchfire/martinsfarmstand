@@ -1,0 +1,94 @@
+@import "partials/_reset.scss";
+@import "partials/_inc.scss";
+@import "partials/_print.scss";
+@import "partials/_typography.scss";
+@import "partials/_variables.scss";
+
+html, body{
+	@include hw();
+	color: #fff;
+	font-family: $secondary-font, serif;
+	line-height: 1.5;
+	font-size: $font-size;
+}
+
+body{
+	background: url('../img/sunflower-horiz.jpg') no-repeat center center;
+	@include vendors(background-size, cover);
+
+	>h1{
+		color: $blue00;
+		text-align: left;
+		background: $text-underlay;
+		margin: 1em;
+	}
+}
+
+.underlay{
+	background: $text-underlay;
+}
+
+section{
+	@include hw(80%, 50%);
+	font-size: 1.1em;
+	padding: 1em;
+	margin: 0 auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	@media screen and (max-width: 660px){
+		width: 90%;
+	}
+
+	p{
+		text-align: center;
+		margin: 1em;
+	}
+
+	a{
+		display: block;
+		margin: 4em auto;
+		width: 40%;
+		color: #fff;
+		text-decoration: none;
+
+		&:hover{
+			color: #fff;
+		}
+	}
+
+	button{
+		display: block;
+		width: 100%;
+		background: $blue1;
+		padding: 1.25em;
+		border-radius: 5%;
+		font-size: 1em;
+		color: #fff;
+
+
+		&:hover{
+			background: $blue;
+			cursor: pointer;
+		}
+	}
+}
+
+.available-content{
+		background: $text-underlay;
+		width: 80%;
+		margin: 0 auto;
+		padding: $typ-one;
+		
+		h2{
+			margin-top: 1em;
+		}
+
+		ul{
+			@include vendors(column-count, 2);
+			text-align: center;
+			margin: 0 auto;
+		}
+	}

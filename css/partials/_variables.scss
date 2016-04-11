@@ -1,0 +1,48 @@
+//Fonts
+
+$playfair: 'Playfair Display', serif;
+$fauna: 'Fauna One', serif;
+
+// Color Scheme
+
+$brown: #c7aa6b;
+	$brown1: #9b7b36;
+	$brown0: #fce7b9;
+	$brown11: #62460c;
+	$brown00: #fff7e7;
+
+$green: #74ab5c;
+	$green1: #48852f;
+	$green0: #b0d99f;
+	$green11: #20540a;
+	$green00: #e1f0da;
+
+$purple: #804682;
+	$purple1: #632465;
+	$purple0: #a379a4;
+	$purple11: #3e0840;
+	$purple00: #dac7db;
+
+$blue: #4f5d87;
+	$blue1: #2c3b68;
+	$blue0: #828caa;
+	$blue11: #0e1b42;
+	$blue00: #cbd0dd;
+
+//Shadows
+
+$text-underlay: rgba(14, 27, 66, 0.7);
+$blue-shadow: 0 0 0.5em $blue11;
+$blue-shadow-inset: inset 0 0 0.2em 0.09em $blue11;
+
+//Borders
+
+$button-border: 1px solid $blue00;
+
+//Image Overlays
+
+$dark-backdrop: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35));
+$imgtext-backdrop: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+$linear-gradient-to-bottom: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0));
+$linear-gradient-to-top: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+
