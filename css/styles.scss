@@ -708,5 +708,9 @@ footer{
 		@media screen and (max-width: 992px){
 			width: 95%;
 		}
+
+		@media screen and (max-width: 600px){
+			font-size: $typ-secondary;
+		}
 	}
 }

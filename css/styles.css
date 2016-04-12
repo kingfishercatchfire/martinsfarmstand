@@ -608,5 +608,8 @@ footer {
     @media screen and (max-width: 992px) {
       footer ul {
         width: 95%; } }
+    @media screen and (max-width: 600px) {
+      footer ul {
+        font-size: 0.78947em; } }
 
 /*# sourceMappingURL=styles.css.map */
