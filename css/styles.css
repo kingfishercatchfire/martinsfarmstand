@@ -602,6 +602,9 @@ footer {
     margin: 0 auto;
     padding: 0.78947em;
     background: rgba(14, 27, 66, 0.7); }
+    footer ul h2 {
+      display: inline;
+      font-size: inherit; }
     @media screen and (max-width: 992px) {
       footer ul {
         width: 95%; } }

@@ -700,6 +700,11 @@ footer{
 		padding: $typ-secondary;
 		background: $text-underlay;
 
+		h2{
+			display: inline;
+			font-size: inherit;
+		}
+
 		@media screen and (max-width: 992px){
 			width: 95%;
 		}
