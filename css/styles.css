@@ -135,7 +135,7 @@ mark {
 header {
   height: 100%;
   width: 100%;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), transparent), url("../img/veggies-assort.JPG") no-repeat center center fixed;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.55), transparent), url("../img/header-r-01.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -207,7 +207,7 @@ header {
           header .header-row1 .contact-info span {
             font-size: 1em; } }
         header .header-row1 .contact-info span mark {
-          letter-spacing: 0.015em;
+          letter-spacing: 0.04em;
           font-family: 'Radley', serif; }
         header .header-row1 .contact-info span a {
           color: #fff7e7; }
